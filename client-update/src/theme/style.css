@@ -1,0 +1,20 @@
+
+
+
+.card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+}
+
+.card img {
+    max-width: 100%;
+    aspect-ratio: 10/16;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+}
